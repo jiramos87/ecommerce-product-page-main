@@ -12,6 +12,9 @@ import Contact from './views/Contact'
 import About from './views/About'
 import Women from './views/Women'
 import Men from './views/Men'
+import Navbar from './components/Navbar';
+import Home from './views/Home';
+import Product from './views/Product';
 
 const App = () => {
   const basename = process.env.BASENAME || ""
@@ -19,10 +22,17 @@ const App = () => {
   return (
     <div className="App">
       <Router basename={basename}>
+        <Navbar />
         <div className="row mt-0 pt-0">
           <Switch>
               <Route exact path="/">
-                <Collections />
+                <Home />
+              </Route>
+              <Route exact path="/home">
+                <Home />
+              </Route>
+              <Route exact path="/product">
+                <Product />
               </Route>
               <Route exact path="/collections">
                 <Collections />
