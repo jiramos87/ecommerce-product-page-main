@@ -23,34 +23,34 @@ const App = () => {
     <div className="App">
       <Router basename={basename}>
         <Navbar />
-        <div className="row mt-0 pt-0">
-          <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route exact path="/home">
-                <Home />
-              </Route>
-              <Route exact path="/product">
-                <Product />
-              </Route>
-              <Route exact path="/collections">
-                <Collections />
-              </Route>
-              <Route exact path="/men">
-                <Men />
-              </Route>
-              <Route exact path="/women">
-                <Women />
-              </Route>
-              <Route exact path="/about">
-                <About />
-              </Route>
-              <Route exact path="/contact">
-                <Contact />
-              </Route>
-            </Switch>
-        </div>
+        
+        <Switch>
+          <Route exact path="/">
+            <Product />
+          </Route>
+          <Route exact path="/home">
+            <Product />
+          </Route>
+          <Route exact path="/product">
+            <Product />
+          </Route>
+          <Route exact path="/collections">
+            <Collections />
+          </Route>
+          <Route exact path="/men">
+            <Men />
+          </Route>
+          <Route exact path="/women">
+            <Women />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+        
       </Router >
     </div>
   )
