@@ -37,6 +37,19 @@ const Product = () => {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div className="d-flex flex-column px-4 py-3">
+                <div className="brand text-orange py-2">
+                    SNEAKER COMPANY
+                </div>
+                <div className='product text-black py-2'>
+                    Fall Limited Edition Sneakers
+                </div>
+                <div className='product-description text-grey py-2'>
+                    These low-profile sneakers are your casual wear companion. Featuring a durable rubber outer sole, they'll withstand
+                    everything the weather can offer
+                </div>
+
+            </div>
 
         </div>
     )

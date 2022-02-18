@@ -15,15 +15,15 @@ const Navbar = () => {
              <nav class="navbar navbar-light bg-white">
                 <div class="container-fluid d-flex flex-row align-items-center justify-content-between">
                     <div>
-                        <button class="navbar-toggler nav-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-                        <button className='navbar-brand nav-icon bg-white cursor-pointer' href="#"> <img src={logo} className="home-button" alt="" width="100" height="28"/></button>
+                        <button className='navbar-brand nav-icon bg-white cursor-pointer' href="#"> <img src={logo} className="home-button" alt="" width="120" height="20"/></button>
                     </div>
                     <div>
-                        <button className='menu-item nav-icon bg-white cursor-pointer'><img src={iconCart} alt="" width="30" height="28"/></button>
-                        <button className='menu-item nav-icon bg-white cursor-pointer'><img src={avatar} alt="" width="30" height="28"/></button>
+                        <button className='menu-item nav-icon bg-white cursor-pointer'><img src={iconCart} alt="" width="20" height="20"/></button>
+                        <button className='menu-item nav-icon bg-white cursor-pointer'><img src={avatar} alt="" width="20" height="20"/></button>
                     </div>
                     
                 </div>

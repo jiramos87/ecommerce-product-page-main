@@ -9,6 +9,7 @@ body {
 
 .navbar-toggler {
   border: none !important;
+  height: 20px !important;
 }
 
 .nav-icon {
@@ -33,6 +34,22 @@ body {
 
 ul {
   list-style-type: none;
+}
+
+.text-orange {
+  color: hsl(26, 100%, 55%);
+}
+.text-grey {
+  color: hsl(219, 9%, 45%);
+}
+.brand {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.product {
+  font-size: 26px;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 768px) {
